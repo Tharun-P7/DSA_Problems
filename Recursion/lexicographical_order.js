@@ -1,3 +1,8 @@
+/**
+ * start is a parameter which denotes the sequence where to start,n is where to end and base case is start>n 
+ * where the number iterating when greater than n it stops.
+ */
+
 function f(start,n){
     if(start>n) return;
     console.log(start)
